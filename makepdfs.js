@@ -48,7 +48,7 @@ function makePdf(data,file) {
 		const puppeteer = require('puppeteer');
 		(async () => {
 				const browser = await puppeteer.launch( {
-				executablePath:'/node_modules/puppeteer/.local-chromium/linux-782078/chrome-linux/chrome',
+				executablePath:'/node_modules/puppeteer/.local-chromium/linux-809590/chrome-linux/chrome',
 				args: [
 					'--headless',
 					'--no-sandbox',
